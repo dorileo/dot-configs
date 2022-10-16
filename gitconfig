@@ -1,0 +1,16 @@
+[user]
+  name = Leandro (Leo) Dorileo
+
+[alias]
+  ci = commit -s
+  co = checkout
+  rh = reset --hard
+  alog = log --pretty=oneline --abbrev-commit
+  aalog = log --pretty='format:%Cred %h %Creset %Cgreen[%an]%Creset %s'
+
+[core]
+  editor = emacs -nw
+  whitespace = "tab-in-indent"
+
+[init]
+  defaultBranch = main
